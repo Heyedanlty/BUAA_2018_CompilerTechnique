@@ -1,0 +1,12 @@
+﻿  C0_Compiler.c
+e:\compiler technique\homework\final\_____最新稳定编译器副本_____\c0_compiler\c0_compiler\c0_compiler.c(25): warning C4013: “gets”未定义；假设外部返回 int
+  err.c
+  gramma.c
+  ICgen.c
+e:\compiler technique\homework\final\_____最新稳定编译器副本_____\c0_compiler\c0_compiler\icgen.c(48): warning C4013: “gets”未定义；假设外部返回 int
+  nextsym.c
+  symtable.c
+  translate.C
+e:\compiler technique\homework\final\_____最新稳定编译器副本_____\c0_compiler\c0_compiler\translate.c(9): warning C4013: “gets”未定义；假设外部返回 int
+  正在生成代码...
+  C0_Compiler.vcxproj -> E:\Compiler Technique\homework\Final\_____最新稳定编译器副本_____\C0_Compiler\Debug\C0_Compiler.exe

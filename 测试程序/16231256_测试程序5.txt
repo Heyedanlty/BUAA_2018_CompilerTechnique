@@ -1,0 +1,28 @@
+int gcd(int a1,int a2){
+	if(a1==a2){
+		return(a1);
+	}
+	if(a1==1){
+		return(1);
+	}
+	if(a2==1){
+		return(1);
+	}
+	if(a1>a2){
+		return(gcd(a1-a2,a2));
+	}
+	return(gcd(a2-a1,a1));
+}
+void main(){
+	int m,n;
+	scanf(m);
+	scanf(n);
+	if(m<=0){
+		printf("m should not be less than 0!");
+	}
+	if(n<=0){
+		printf("n should not be less than 0!");
+	}
+	printf(gcd(m,n));
+	return;
+}

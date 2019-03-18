@@ -1,0 +1,19 @@
+﻿  C0_Compiler.c
+e:\compiler technique\homework\final\最终程序\16231256_李天宇_申优\源代码\c0_compiler\c0_compiler\c0_compiler.c(25): warning C4013: “gets”未定义；假设外部返回 int
+  err.c
+e:\compiler technique\homework\final\最终程序\16231256_李天宇_申优\源代码\c0_compiler\c0_compiler\err.c(51): warning C4013: “exit”未定义；假设外部返回 int
+  gramma.c
+  ICgen.c
+e:\compiler technique\homework\final\最终程序\16231256_李天宇_申优\源代码\c0_compiler\c0_compiler\icgen.c(51): warning C4013: “gets”未定义；假设外部返回 int
+e:\compiler technique\homework\final\最终程序\16231256_李天宇_申优\源代码\c0_compiler\c0_compiler\icgen.c(84): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  nextsym.c
+e:\compiler technique\homework\final\最终程序\16231256_李天宇_申优\源代码\c0_compiler\c0_compiler\nextsym.c(340): warning C4311: “类型强制转换”: 从“char [2]”到“int”的指针截断
+e:\compiler technique\homework\final\最终程序\16231256_李天宇_申优\源代码\c0_compiler\c0_compiler\nextsym.c(345): warning C4311: “类型强制转换”: 从“char [2]”到“int”的指针截断
+e:\compiler technique\homework\final\最终程序\16231256_李天宇_申优\源代码\c0_compiler\c0_compiler\nextsym.c(350): warning C4311: “类型强制转换”: 从“char [2]”到“int”的指针截断
+e:\compiler technique\homework\final\最终程序\16231256_李天宇_申优\源代码\c0_compiler\c0_compiler\nextsym.c(360): warning C4311: “类型强制转换”: 从“char [2]”到“int”的指针截断
+  symtable.c
+  translate.C
+e:\compiler technique\homework\final\最终程序\16231256_李天宇_申优\源代码\c0_compiler\c0_compiler\translate.c(11): warning C4013: “gets”未定义；假设外部返回 int
+e:\compiler technique\homework\final\最终程序\16231256_李天宇_申优\源代码\c0_compiler\c0_compiler\translate.c(588): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  C0_Compiler.vcxproj -> E:\Compiler Technique\homework\Final\最终程序\16231256_李天宇_申优\源代码\C0_Compiler\x64\Debug\C0_Compiler.exe

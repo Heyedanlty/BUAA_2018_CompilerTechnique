@@ -1,0 +1,10 @@
+const int hundred=100;
+void main(){
+int i;
+i=1
+while(i<=hundred){
+printf(i);
+i=i+1;
+}
+return;
+}

@@ -1,0 +1,146 @@
+const int _zero = 0;
+const int zero1 = +0;
+const int zero2 = -0, one = 1, minus_one = -1;
+const int Long_number = 123456789, long_number = -987654321;
+const char _A = 'A';
+const char _b = 'b', _C = 'C';
+
+int test_integer;
+int change2,change3,_change[10];
+char test_char;
+char test_char;
+char char2,char3,_char[5];
+
+int re_zero()
+{
+	return(0);
+}
+int re_self(int a)
+{
+	return(a);
+}
+int max_int(int a, int b)
+{
+	if(a>b)
+	{
+		return(a);
+	}
+	return(b);
+}
+int re_self1(int a)
+{
+	return(a+1);
+}
+void my_print1()
+{
+	printf("my_print1!  ");
+	return;
+}
+void my_print_int(int a, int b)
+{
+	printf("my_print2!",a+b);
+}
+void my_print_char(char c)
+{
+	printf("my_print3",c);
+	return;
+}
+char re_a()
+{
+	return('a');
+}
+char re_self_c(char c)
+{
+	return(c);
+}
+char max_char(char c1, char c2)
+{
+	if((c1)>=(c2))
+	{
+		return(c1);
+	}
+	return(c2);
+}
+
+void recursion(int a)
+{
+	printf(a);
+	if(a==1)return;
+	recursion(a-1);
+	return;
+}
+
+
+void main()
+{
+	const int const1 = 1;
+	const char const2 = 'a';
+	int integer1;
+	int flag1,flag2;
+	char char1;
+	
+	if(1)printf("1!");
+	if(0)printf("0!");
+	if(1>0)printf("1>0!");
+	if(0>1)printf("0>1!");
+	if(0>=0)printf("0>=0!");
+	if(-11>=0)printf("-11>=0!");
+	if(0<=0)printf("0<=0!");
+	if(11<=0)printf("11<=0!");
+	if(0!=0)printf("0!=0!");
+	if(1!=0)printf("1!=0!");
+	if(0==0)printf("0==0!");
+	if(1==0)printf("1==0!");
+	
+	_change[5] = 5;
+	printf(_change[5]);
+	change2 = 2;
+	printf(change2);
+	char1 = 'x';
+	char2 = 'y';
+	char3 = 'a';
+	_char[3] = 'z';
+	printf(char1);
+	printf(char2);
+	printf(_char[3]);
+	
+	integer1 = -5;
+	while(integer1!=0){integer1 = re_self1(integer1);}
+	printf(integer1);
+	
+	scanf(flag1,flag2);
+	switch(flag1)
+	{
+		case 1:printf("flag1=1!");
+		case 2:printf("flag1=2!");
+		default:printf("flag1not12!");
+	}
+	switch(flag2)
+	{
+		case 1:printf("flag2=1!");
+	}
+	my_print1();
+	my_print_int(2,3);
+	my_print_char('d');
+	printf(re_self_c('t'));
+	printf(max_char('c','m'));
+	printf(re_a());
+	printf(re_zero());
+	integer1 = 7;
+	integer1 = re_self1(7);
+	printf("!",integer1);
+	integer1 = max_int(5+5,9);
+	printf("!",integer1);
+	printf(_zero);
+	printf(zero1);
+	printf(zero2);
+	printf(one);
+	printf(minus_one);
+	printf(Long_number);
+	printf(long_number);
+	printf(_A);
+	printf(_b);
+	printf(_C);
+	printf('A'+'c');
+	recursion(3);
+}
